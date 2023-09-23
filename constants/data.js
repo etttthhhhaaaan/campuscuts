@@ -28,8 +28,8 @@ const userData = {
       imgUrl: "/covidrescue.png",
     },
     {
-      title: "Algochurn",
-      link: "https://algochurn.com",
+      title: "kekdubs",
+      link: "https://kekdubs.com",
       imgUrl: "/algochurn.png",
     },
     {
@@ -76,9 +76,9 @@ const userData = {
     },
     {
       title: "Founder and Developer",
-      company: "Algochurn",
+      company: "kekdubs",
       year: "2021",
-      companyLink: "https://algochurn.com",
+      companyLink: "https://dsdsd.com",
       desc: "Your last moment revision friend right before a Tech coding interview. Practice problems and get hired at top Product based companies.",
     },
     {
