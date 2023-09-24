@@ -1,11 +1,11 @@
 const userData = {
-  githubUsername: "manuarora700",
+  githubUsername: "etttthhhhaaaan",
   name: "Ethan",
-  designation: "Half-Stack Developer",
+  designation: "Half-Baked Developer",
   avatarUrl: "/ethansPic.png",
-  email: "manuarorawork@gmail.com",
-  phone: "+91 9587738861",
-  address: "Jaipur, Rajasthan, India.",
+  email: "etttthhhhaaaan@gmail.com",
+  phone: "+1 (614) 315-4542",
+  address: "Columbus, OH",
   projects: [
     {
       title: "Tailwind Master Kit",
@@ -52,9 +52,10 @@ const userData = {
     title:
       "I'm a fourth-year Electrical and Computer Engineering student at The Ohio State University.",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `I've been writing code since 9th grade, and have been a computer engineering student my entire time at The Ohio State University.`,
+      `Everyone always gets hit with the question, "why do you like coding? why are you in this field? When I was five, my dad got me a gift: a Saturn V rocket model kit, which my mom thought was too advanced for me at the time. However, to their surprise, when they came home from work one day I had it completely done. I had so much fun putting that little model rocket together that I had sat down for five hours, doing nothing but building - putting little blocks together and watching a project come to life.`,
+      `I have been fortunate enough to discover that my passion in this life is building, and watching things come to life. Even now, when I pull all nighters for a project, or am simply writing code for a lab, I experience those tiny twinges of excitment, reminscent of that day almost 17 years ago, as my projects come to life.`,
+      `Every time I submit code, push to master, and report my discoveries to my team, I feel like a puzzle piece has fallen into place.`,
     ],
     currentProject: "Tailwind Master Kit",
     currentProjectUrl: "https://tailwindmasterkit.com",

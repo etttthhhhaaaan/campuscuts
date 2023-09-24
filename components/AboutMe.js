@@ -25,19 +25,34 @@ export default function AboutMe() {
           {/* Social Buttons */}
           <div className="inline-flex flex-col">
             <div className="mt-8">
+              
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Job Opportunities
               </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
+              <p className="text-lg text-gray-500 mt-2 dark:text-gray-300">
                 I'm currently seeking a job. If you see me as a good fit at your company, please have a look at my {" "}
                 <a
-                  href={userData.resumeUrl}
+                  href="https://drive.google.com/file/d/1CUStLDV-wnQwAUUOSv070FqNrAiMsLEK/view?usp=sharing"
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
                   resume
                 </a>{" "}
-                and see my experiences.
+                and see my experiences. <br /><br />
+              </p>
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+                About this webpage
+              </h1>
+              <p className="text-lg text-gray-500 mt-2 dark:text-gray-300">
+                This website was built using mainly Next.js and TailwindCSS. I wanted to demonstrate my skills in a manner more efficiently than a resume, and show that I have some creativity and problem solving as well. When I was working on this website, my little sister walked by and commented on how plain it looked, and because I love my little sister, I took it upon myself to add a bit more color to it. Luckily, the folks at {" "}
+                <a
+                  href="https://roughnotation.com/"
+                  target="__blank"
+                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                >
+                  RoughNotation
+                </a>{" "}
+                had just the splash of color this website needed. After all, if it's not good enough for a 9 year old it isn't good enough for anyone. As she would always say, "everything needs pizazz".
               </p>
             </div>
             {/* Social Links */}
