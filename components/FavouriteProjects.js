@@ -15,7 +15,7 @@ export default function FavouriteProjects() {
         </header>
 
         <div class="text">
-           placeholder_text
+        <br /> <br />
         </div>
         {/* Grid starts here */}
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
