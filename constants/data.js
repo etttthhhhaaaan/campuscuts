@@ -106,9 +106,9 @@ const userData = {
   resumeUrl:
     "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
   socialLinks: {
-    instagram: "https://instagram.com/maninthere",
+    instagram: "https://www.instagram.com/ethxn.l/",
     twitter: "https://twitter.com/mannupaaji",
-    linkedin: "https://linkedin.com/in/manuarora28",
+    linkedin: "https://www.linkedin.com/in/ethanzlong/",
     github: "https://github.com/manuarora700",
     facebook: "https://facebook.com/",
     peerlist: "https://peerlist.io/manuarora",
