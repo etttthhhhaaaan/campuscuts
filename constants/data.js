@@ -62,7 +62,7 @@ const userData = {
   },
   experience: [
     {
-      title: "Software Developer",
+      title: "Software Developer (Part Time)",
       company: "Chemical Abstracts Service",
       year: "2022-Present",
       companyLink: "https://www.cas.org/",
