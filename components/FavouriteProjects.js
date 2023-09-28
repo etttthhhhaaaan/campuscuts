@@ -21,12 +21,12 @@ export default function FavouriteProjects() {
         <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
           {/* Single card */}
           <a
-            href="https://drive.google.com/file/d/1CUStLDV-wnQwAUUOSv070FqNrAiMsLEK/view?usp=sharing"
+            href="https://drive.google.com/file/d/1CUStLDV-wnQwAUUOSv070FqNrAiMsLEK/view"
             className="w-full block col-span-3 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
-                src="/resume.jpg"
+                src="/resumee.png"
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />

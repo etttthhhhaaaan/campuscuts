@@ -1,9 +1,9 @@
 const userData = {
   githubUsername: "etttthhhhaaaan",
   name: "Ethan",
-  designation: "Half-Baked Developer",
+  designation: "Aspiring Developer",
   avatarUrl: "/ethansPic.png",
-  email: "etttthhhhaaaan@gmail.com",
+  email: "long.1777@osu.edu",
   phone: "+1 (614) 315-4542",
   address: "Columbus, OH",
   projects: [

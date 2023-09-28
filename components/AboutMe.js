@@ -32,7 +32,7 @@ export default function AboutMe() {
               <p className="text-lg text-gray-500 mt-2 dark:text-gray-300">
                 I'm currently seeking a job. If you see me as a good fit at your company, please have a look at my {" "}
                 <a
-                  href="https://drive.google.com/file/d/1CUStLDV-wnQwAUUOSv070FqNrAiMsLEK/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1CUStLDV-wnQwAUUOSv070FqNrAiMsLEK/view"
                   target="__blank"
                   className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
                 >
