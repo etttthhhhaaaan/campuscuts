@@ -14,7 +14,6 @@ export default function Home({ repositories }) {
       description="This is a site to show off my basic react.js skills and general competency."
     >
       <Hero />
-      <FavouriteProjects />
     </ContainerBlock>
   );
 }
