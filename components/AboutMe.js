@@ -25,7 +25,7 @@ export default function AboutMe() {
             style={{ lineHeight: "3rem" }}
           >
             
-            I'm a fourth-year <Bracket color={colors[4]}>Electrical and Computer Engineering</Bracket> student at The Ohio State University.
+            I'm a fourth-year <Bracket color={colors[0]}>Electrical and Computer Engineering</Bracket> student at The Ohio State University.
 
           </p>
         </div>
