@@ -79,6 +79,7 @@ export default function Navbar() {
               </svg>
             )}
           </Link>
+
           <Link
             href="/contact"
             className={`text-base  ${
