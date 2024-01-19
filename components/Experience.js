@@ -18,6 +18,9 @@ export default function Experience() {
                   <td>Hair Cut</td>
                 </tr>
                 <tr>
+                  <td>Hair Cut for Active Military</td>
+                </tr>
+                <tr>
                   <td>(Long hair ext.)</td>
                 </tr>
                 <tr>
@@ -50,9 +53,7 @@ export default function Experience() {
                 <tr>
                   <td>Bang Trim</td>
                 </tr>
-                <tr>
-                  <td>Hair Cut for Active Military</td>
-                </tr>
+                
                 <tr>
                   <td>Edge up</td>
                 </tr>
@@ -66,6 +67,9 @@ export default function Experience() {
               <tbody>
                 <tr>
                   <td>$18.00</td>
+                </tr>
+                <tr>
+                  <td>$15.00</td>
                 </tr>
                 <tr>
                   <td>$4.00</td>
@@ -100,9 +104,7 @@ export default function Experience() {
                 <tr>
                   <td>$10.00</td>
                 </tr>
-                <tr>
-                  <td>$15.00</td>
-                </tr>
+                
                 <tr>
                   <td>$12.00</td>
                 </tr>
