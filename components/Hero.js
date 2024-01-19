@@ -1,6 +1,5 @@
 import React from "react";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-import { Underline } from "./Underline";
+import userData from "@constants/data";
 
 export default function Hero() {
   const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
