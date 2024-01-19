@@ -13,17 +13,19 @@ export default function Navbar() {
   useEffect(() => {
     setMounted(true);
   }, []);
+  
+
 
   return (
-    <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl bg-[#3b444b] mx-auto px-4 py-10 md:py-20">
       <div className="flex  md:flex-row justify-between items-center">
         <div className="flex flex-col">
           <Link href="/">
-            <h1 className="font-semibold text-xl dark:text-gray-100">
-              {userData.name}
+            <h1 className="text-white text-4xl font-bold font-cursive text-center">
+              Campus Cuts
             </h1>
             <p className="text-base font-light text-gray-500 dark:text-gray-300">
-              {userData.designation}
+              Quality Haircuts
             </p>
           </Link>
         </div>
@@ -31,50 +33,48 @@ export default function Navbar() {
         <div className="space-x-8 hidden md:block">
           <Link
             href="/about"
-            className={`text-base  ${
-              router.asPath === "/about"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
-            }`}
+            className={`text-base  ${router.asPath === "/about"
+              ? "text-white font-bold dark:text-gray-400"
+              : "text-gray-300 dark:text-gray-300 font-normal "
+              }`}
           >
-            About{" "}
+            Reviews{" "}
             {router.asPath === "/about" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                className="bi bi-arrow-down inline-block h-3 w-3"
+                className="bi bi-scissors inline-block h-3 w-3"
                 viewBox="0 0 16 16"
               >
                 <path
                   fillRule="evenodd"
-                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                  d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
                 />
               </svg>
             )}
           </Link>
           <Link
             href="/experience"
-            className={`text-base  ${
-              router.asPath === "/experience"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
-            }`}
+            className={`text-base  ${router.asPath === "/experience"
+              ? "text-white font-bold dark:text-gray-400"
+              : "text-gray-300 dark:text-gray-300 font-normal "
+              }`}
           >
-            Experience{" "}
+            Pricing{" "}
             {router.asPath === "/experience" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                className="bi bi-arrow-down inline-block h-3 w-3"
+                className="bi bi-scissors inline-block h-3 w-3"
                 viewBox="0 0 16 16"
               >
                 <path
                   fillRule="evenodd"
-                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                  d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
                 />
               </svg>
             )}
@@ -82,25 +82,24 @@ export default function Navbar() {
 
           <Link
             href="/contact"
-            className={`text-base  ${
-              router.asPath === "/contact"
-                ? "text-gray-800 font-bold dark:text-gray-400"
-                : "text-gray-600 dark:text-gray-300 font-normal "
-            }`}
+            className={`text-base  ${router.asPath === "/contact"
+              ? "text-white font-bold dark:text-gray-400"
+              : "text-gray-300 dark:text-gray-300 font-normal "
+              }`}
           >
-            Contact
+            Contact{" "}
             {router.asPath === "/contact" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
                 fill="currentColor"
-                className="bi bi-arrow-down inline-block h-3 w-3"
+                className="bi bi-scissors inline-block h-3 w-3"
                 viewBox="0 0 16 16"
               >
                 <path
                   fillRule="evenodd"
-                  d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                  d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
                 />
               </svg>
             )}
@@ -108,85 +107,111 @@ export default function Navbar() {
         </div>
 
         <div className="space-x-4 flex flex-row items-center">
-          <a href={userData.socialLinks.instagram} x>
+          <a
+            href="https://www.facebook.com/profile.php?id=100039970375521"
+            className="text-base font-normal text-white dark:text-gray-300"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
               fill="currentColor"
-              className="bi bi-instagram h-5 w-5"
+              className="bi bi-facebook h-5 w-5"
               viewBox="0 0 16 16"
             >
-              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
             </svg>
           </a>
           <a
-            href={userData.socialLinks.linkedin}
-            className="text-base font-normal text-gray-600 dark:text-gray-300"
+            href="https://www.yelp.com/biz/campus-cuts-columbus"
+            className="text-base font-normal text-white dark:text-gray-300"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
               height="16"
               fill="currentColor"
-              className="bi bi-linkedin h-5 w-5"
+              className="bi bi-yelp h-5 w-5"
               viewBox="0 0 16 16"
             >
-              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+              <path d="m4.188 10.095.736-.17.073-.02A.813.813 0 0 0 5.45 8.65a1 1 0 0 0-.3-.258 3 3 0 0 0-.428-.198l-.808-.295a76 76 0 0 0-1.364-.493C2.253 7.3 2 7.208 1.783 7.14c-.041-.013-.087-.025-.124-.038a2.1 2.1 0 0 0-.606-.116.72.72 0 0 0-.572.245 2 2 0 0 0-.105.132 1.6 1.6 0 0 0-.155.309c-.15.443-.225.908-.22 1.376.002.423.013.966.246 1.334a.8.8 0 0 0 .22.24c.166.114.333.129.507.141.26.019.513-.045.764-.103l2.447-.566zm8.219-3.911a4.2 4.2 0 0 0-.8-1.14 1.6 1.6 0 0 0-.275-.21 2 2 0 0 0-.15-.073.72.72 0 0 0-.621.031c-.142.07-.294.182-.496.37-.028.028-.063.06-.094.089-.167.156-.353.35-.574.575q-.51.516-1.01 1.042l-.598.62a3 3 0 0 0-.298.365 1 1 0 0 0-.157.364.8.8 0 0 0 .007.301q0 .007.003.013a.81.81 0 0 0 .945.616l.074-.014 3.185-.736c.251-.058.506-.112.732-.242.151-.088.295-.175.394-.35a.8.8 0 0 0 .093-.313c.05-.434-.178-.927-.36-1.308M6.706 7.523c.23-.29.23-.722.25-1.075.07-1.181.143-2.362.201-3.543.022-.448.07-.89.044-1.34-.022-.372-.025-.799-.26-1.104C6.528-.077 5.644-.033 5.04.05q-.278.038-.553.104a8 8 0 0 0-.543.149c-.58.19-1.393.537-1.53 1.204-.078.377.106.763.249 1.107.173.417.41.792.625 1.185.57 1.036 1.15 2.066 1.728 3.097.172.308.36.697.695.857q.033.015.068.025c.15.057.313.068.469.032l.028-.007a.8.8 0 0 0 .377-.226zm-.276 3.161a.74.74 0 0 0-.923-.234 1 1 0 0 0-.145.09 2 2 0 0 0-.346.354c-.026.033-.05.077-.08.104l-.512.705q-.435.591-.861 1.193c-.185.26-.346.479-.472.673l-.072.11c-.152.235-.238.406-.282.559a.7.7 0 0 0-.03.314c.013.11.05.217.108.312q.046.07.1.138a1.6 1.6 0 0 0 .257.237 4.5 4.5 0 0 0 2.196.76 1.6 1.6 0 0 0 .349-.027 2 2 0 0 0 .163-.048.8.8 0 0 0 .278-.178.7.7 0 0 0 .17-.266c.059-.147.098-.335.123-.613l.012-.13c.02-.231.03-.502.045-.821q.037-.735.06-1.469l.033-.87a2.1 2.1 0 0 0-.055-.623 1 1 0 0 0-.117-.27Zm5.783 1.362a2.2 2.2 0 0 0-.498-.378l-.112-.067c-.199-.12-.438-.246-.719-.398q-.644-.353-1.295-.695l-.767-.407c-.04-.012-.08-.04-.118-.059a2 2 0 0 0-.466-.166 1 1 0 0 0-.17-.018.74.74 0 0 0-.725.616 1 1 0 0 0 .01.293c.038.204.13.406.224.583l.41.768q.341.65.696 1.294c.152.28.28.52.398.719q.036.057.068.112c.145.239.261.39.379.497a.73.73 0 0 0 .596.201 2 2 0 0 0 .168-.029 1.6 1.6 0 0 0 .325-.129 4 4 0 0 0 .855-.64c.306-.3.577-.63.788-1.006q.045-.08.076-.165a2 2 0 0 0 .051-.161q.019-.083.029-.168a.8.8 0 0 0-.038-.327.7.7 0 0 0-.165-.27" />
             </svg>
           </a>
-          <button
-            aria-label="Toggle Dark Mode"
-            type="button"
-            className="w-10 h-10 p-3 rounded focus:outline-none"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-          >
-            {mounted && (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                stroke="currentColor"
-                className="w-4 h-4 text-yellow-500 dark:text-yellow-500"
-              >
-                {theme === "dark" ? (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"
-                  />
-                ) : (
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="removethisM20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
-                  />
-                )}
-              </svg>
-            )}
-          </button>
         </div>
       </div>
       <div className="space-x-8 block md:hidden mt-4">
         <Link
           href="/about"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className={`text-base  ${router.asPath === "/about"
+            ? "text-white font-bold dark:text-gray-400"
+            : "text-gray-300 dark:text-gray-300 font-normal "
+            }`}
         >
-          About
+          Reviews{" "}
+          {router.asPath === "/about" && (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="bi bi-scissors inline-block h-3 w-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fillRule="evenodd"
+                d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
+              />
+            </svg>
+          )}
         </Link>
         <Link
           href="/experience"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className={`text-base  ${router.asPath === "/experience"
+            ? "text-white font-bold dark:text-gray-400"
+            : "text-gray-300 dark:text-gray-300 font-normal "
+            }`}
         >
-          Experience
+          Pricing{" "}
+          {router.asPath === "/experience" && (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="bi bi-scissors inline-block h-3 w-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fillRule="evenodd"
+                d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
+              />
+            </svg>
+          )}
         </Link>
+
         <Link
           href="/contact"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
+          className={`text-base  ${router.asPath === "/contact"
+            ? "text-white font-bold dark:text-gray-400"
+            : "text-gray-300 dark:text-gray-300 font-normal "
+            }`}
         >
-          Contact
+          Contact{" "}
+          {router.asPath === "/contact" && (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              className="bi bi-scissors inline-block h-3 w-3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fillRule="evenodd"
+                d="M3.5 3.5c-.614-.884-.074-1.962.858-2.5L8 7.226 11.642 1c.932.538 1.472 1.616.858 2.5L8.81 8.61l1.556 2.661a2.5 2.5 0 1 1-.794.637L8 9.73l-1.572 2.177a2.5 2.5 0 1 1-.794-.637L7.19 8.61zm2.5 10a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0m7 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
+              />
+            </svg>
+          )}
         </Link>
       </div>
     </div>

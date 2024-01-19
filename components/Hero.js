@@ -10,23 +10,11 @@ export default function Hero() {
       {/* Text container */}
 
       <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
-        <RoughNotationGroup show={true}>
-          <Underline color={colors[2]}>
-            <h1 className="text-4xl md:text-6xl font-italic text-gray-70 dark:text-gray-200 my-2">
-              Developer.
+        
+            <h1 className="text-4xl md:text-5xl font-italic text-gray-300 my-2">
+            "We are a hair salon serving The Ohio State University area for over 22 years! We pride ourselves in providing a quality hair cut and style for an affordable price."
             </h1>
-          </Underline>
-          <Underline color={colors[1]}>
-            <h1 className="text-4xl md:text-6xl font-italic text-gray-70 dark:text-gray-200 my-2">
-              Team Player.
-            </h1>
-          </Underline>
-          <Underline color={colors[3]}>
-            <h1 className="text-4xl md:text-6xl font-italic text-gray-70 dark:text-gray-200 my-2">
-              Hard worker.
-            </h1>
-          </Underline>
-        </RoughNotationGroup>
+
       </div>
 
 
@@ -52,7 +40,7 @@ export default function Hero() {
                   d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"
                 />
               </svg>
-              <p className="font-mono">Ethan, enjoying a snack.</p>
+              <p className="font-mono">Our storefront!</p>
             </div>
           </div>
         </div>

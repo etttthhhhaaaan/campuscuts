@@ -10,7 +10,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const meta = {
     title: "Ethan Long - Developer, Team Leader, Builder.",
     description: `I've been a student in Computer Engineering for 4 years, and an intern/part time worker for one.`,
-    image: "/ethansPic.png",
+    image: "/ccuts.png",
     type: "website",
     ...customMeta,
   };
@@ -42,7 +42,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <main className="dark:bg-gray-800 w-full">
+      <main className="bg-[#3b444b] w-full">
         <Navbar />
         <div>{children}</div>
         <Footer />
