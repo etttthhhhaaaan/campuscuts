@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl  mx-auto px-4 py-10 md:py-20">
         <div className="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center mt-8">
           <div>
-            <p>&copy; Campus Cuts. All Rights Reserved.</p>
+            <p className="text-white">&copy; Campus Cuts. All Rights Reserved.</p>
           </div>
           <div className="space-x-4 flex flex-row items-center">
             <a

@@ -8,9 +8,9 @@ import AboutMe from "../components/AboutMe";
 
 
 export default function about() {
-
   return (
     <ContainerBlock>
+      
       <div className="max-w-fill mx-auto h-48 bg-gradient-to-b from-[#3b444b] to-white" />
 
 
@@ -28,6 +28,10 @@ export default function about() {
 
           </svg>
         </div>
+
+        
+        <div class='sk-ww-yelp-reviews' data-embed-id='25351384'></div><script src='https://widgets.sociablekit.com/yelp-reviews/widget.js' async defer></script>
+
         <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
         <div class="elfsight-app-f31a113f-2d87-4ce1-9230-d824fc3a0277" data-elfsight-app-lazy></div>
         <div className="flex items-center justify-center content-center bg-white">
@@ -49,7 +53,6 @@ export default function about() {
       <div className="max-w-fill mx-auto h-48 bg-gradient-to-b from-white to-[#3b444b]" />
 
 
-      <AboutMe />
     </ContainerBlock>
 
   );

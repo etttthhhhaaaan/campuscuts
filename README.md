@@ -39,9 +39,7 @@ I've kept the pages as simple as possible. Only the required sections are includ
 
 ![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/experience.png)
 
-## Contact
 
-![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
 
 # Tech Stack
 
