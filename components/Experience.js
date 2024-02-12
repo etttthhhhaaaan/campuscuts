@@ -11,153 +11,64 @@ export default function Experience() {
           {/* Experience card */}
           <div className="relative experience-card border border-8 border-double p-20 rounded-md bg-[232b2b] z-10 mx-4">
             <h1 className="pb-4 text-5xl text-white md:text-5xl font-bold font-cursive text-center">Price List</h1>
+            
             <table className="table-auto flex justify-between text-white">
               <thead>
                 <tr>
                   <td>Hair Cut</td>
-                  
-                </tr>
-                <tr>
-                  <td>Hair Cut for Active Military</td>
-                </tr>
-                <tr>
-                  <td>(Long hair ext.)</td>
-                </tr>
-                <tr>
-                  <td>Senior/kid</td>
-                </tr>
-                <tr>
-                  <td>Shampoo (Blow Dry Extra)</td>
-                </tr>
-                <tr>
-                  <td>Shampoo and Styling</td>
-                </tr>
-                <tr>
-                  <td>Perm</td>
-                </tr>
-                <tr>
-                  <td>Color</td>
-                </tr>
-                <tr>
-                  <td>Highlight</td>
-                </tr>
-                <tr>
-                  <td>Special Updo</td>
-                </tr>
-                <tr>
-                  <td>Eyebrow/Lip Wax</td>
-                </tr>
-                <tr>
-                  <td>Beard Trim</td>
-                </tr>
-                <tr>
-                  <td>Bang Trim</td>
-                </tr>
-                
-                <tr>
-                  <td>Edge up</td>
-                </tr>
-                <tr>
-                  <td> <br /></td>
-                </tr>
-                <tr>
-                  <td>(Tax may apply for some services)</td>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>$18.00</td>
-                </tr>
-                <tr>
-                  <td>$15.00</td>
-                </tr>
-                <tr>
-                  <td>$4.00</td>
-                </tr>
-                <tr>
-                  <td>$17.00</td>
-                </tr>
-                <tr>
-                  <td>$4.00</td>
-                </tr>
-                <tr>
-                  <td>$25.00</td>
-                </tr>
-                <tr>
-                  <td>$65.00+</td>
-                </tr>
-                <tr>
-                  <td>$55.00+</td>
-                </tr>
-                <tr>
-                  <td>$70.00+</td>
-                </tr>
-                <tr>
-                  <td>$45.00</td>
-                </tr>
-                <tr>
-                  <td>$15.00</td>
-                </tr>
-                <tr>
-                  <td>$10.00</td>
-                </tr>
-                <tr>
-                  <td>$10.00</td>
-                </tr>
-                
-                <tr>
-                  <td>$12.00</td>
-                </tr>
-              </tbody>
-            </table>
-            <table className="table-auto flex justify-between text-white">
-              <thead>
-                <tr>
-                  <td>Hair Cut</td>
-                  <td className="pl-10">$15.00</td>
-                </tr>
-                <tr>
-                  <td>Hair Cut for Active Military</td>
-                  <td className="pl-10">$23.00</td>
+                  <td className="pl-10">$18.00</td>
                 </tr>
                 <tr>
                   <td>(Long hair ext.)</td>
                   <td className="pl-10">$4.00</td>
                 </tr>
                 <tr>
-                  <td>Senior/kid</td>
+                  <td>Hair Cut for Active Military</td>
+                  <td className="pl-10">$15.00</td>
+                </tr>
+                <tr>
+                  <td>Senior/kid</td> 
                   <td className="pl-10">$17.00</td>
                 </tr>
                 <tr>
                   <td>Shampoo (Blow Dry Extra)</td>
+                  <td className="pl-10">$4.00</td>
                 </tr>
                 <tr>
                   <td>Shampoo and Styling</td>
+                  <td className="pl-10">$25.00</td>
                 </tr>
                 <tr>
                   <td>Perm</td>
+                  <td className="pl-10">$65.00+</td>
                 </tr>
                 <tr>
                   <td>Color</td>
+                  <td className="pl-10">$55.00+</td>
                 </tr>
                 <tr>
                   <td>Highlight</td>
+                  <td className="pl-10">$70.00+</td>
                 </tr>
                 <tr>
                   <td>Special Updo</td>
+                  <td className="pl-10">$45.00</td>
                 </tr>
                 <tr>
                   <td>Eyebrow/Lip Wax</td>
+                  <td className="pl-10">$15.00</td>
                 </tr>
                 <tr>
                   <td>Beard Trim</td>
+                  <td className="pl-10">$10.00</td>
                 </tr>
                 <tr>
                   <td>Bang Trim</td>
+                  <td className="pl-10">$10.00</td>
                 </tr>
-                
                 <tr>
                   <td>Edge up</td>
+                  <td className="pl-10">$12.00</td>
                 </tr>
                 <tr>
                   <td> <br /></td>
