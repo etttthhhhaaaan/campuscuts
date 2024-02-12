@@ -2,9 +2,9 @@ import React from "react";
 import ContainerBlock from "../components/ContainerBlock";
 import Experience from "../components/Experience";
 
-export default function experience() {
+export default function pricing() {
   return (
-    <ContainerBlock title="Ethan Long - Developer">
+    <ContainerBlock title="CampusCuts">
       <Experience />
     </ContainerBlock>
   );

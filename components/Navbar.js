@@ -32,14 +32,14 @@ export default function Navbar() {
         <div className="space-x-8 hidden md:block">
           
           <Link
-            href="/experience"
-            className={`text-base  ${router.asPath === "/experience"
+            href="/pricing"
+            className={`text-base  ${router.asPath === "/pricing"
               ? "text-white font-bold dark:text-gray-400"
               : "text-gray-300 dark:text-gray-300 font-normal "
               }`}
           >
             Pricing{" "}
-            {router.asPath === "/experience" && (
+            {router.asPath === "/pricing" && (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -141,14 +141,14 @@ export default function Navbar() {
           )}
         </Link>
         <Link
-          href="/experience"
-          className={`text-base  ${router.asPath === "/experience"
+          href="/pricing"
+          className={`text-base  ${router.asPath === "/pricing"
             ? "text-white font-bold dark:text-gray-400"
             : "text-gray-300 dark:text-gray-300 font-normal "
             }`}
         >
           Pricing{" "}
-          {router.asPath === "/experience" && (
+          {router.asPath === "/pricing" && (
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
